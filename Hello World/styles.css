@@ -1,0 +1,26 @@
+.dot {
+    width: max-content;
+    padding: 1em;
+    border: 1px solid #1f202050;
+    border-radius: 0.2em;
+    font-weight: 200;
+    text-shadow: 1px 1px 0px #F9F6EF, 1px 1px 0px #F9F6EF, 1px 1px 0px #F9F6EF, 1px 1px 0px #F9F6EF;
+  }
+  
+  .tback {
+    padding: 2em;
+    border: 1px solid #1f202020;
+    border-radius: 0.4em;
+    background-color: #FFE68110;
+    backdrop-filter: blur(0.4em);
+  }
+  
+  body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    font-family: system-ui, sans-serif;
+    padding: 2rem;
+  }
